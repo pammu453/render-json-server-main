@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "1732514485678",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "1732514598765",
+      "name": "Isha Sharma",
+      "email": "isha.sharma@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": "1732514703456",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": "1732514812345",
+      "name": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@example.com",
+      "role": "Moderator",
+      "status": "Inactive"
+    },
+    {
+      "id": "1732514927890",
+      "name": "Rohit Deshmukh",
+      "email": "rohit.deshmukh@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "1732515034567",
+      "name": "Ananya Mehta",
+      "email": "ananya.mehta@example.com",
+      "role": "Contributor",
+      "status": "Active"
+    },
+    {
+      "id": "1732515147890",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1732517209876",
+      "name": "Admin",
+      "description": "Full access to the system"
+    },
+    {
+      "id": "1732517314567",
+      "name": "Editor",
+      "description": "Can edit content but not manage users"
+    },
+    {
+      "id": "1732517427890",
+      "name": "Viewer",
+      "description": "Can view content but cannot edit"
+    },
+    {
+      "id": "1732517531234",
+      "name": "Moderator",
+      "description": "Can moderate user submissions"
+    },
+    {
+      "id": "1732517645678",
+      "name": "Guest",
+      "description": "Limited access to public content"
+    },
+    {
+      "id": "1732517758901",
+      "name": "Contributor",
+      "description": "Can contribute new content"
+    },
+    {
+      "id": "1732517863456",
+      "name": "Super Admin",
+      "description": "Highest level of access and control"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1732517961234",
+      "name": "Manage Users",
+      "role": "Admin"
+    },
+    {
+      "id": "1732518074567",
+      "name": "Edit Articles",
+      "role": "Editor"
+    },
+    {
+      "id": "1732518187890",
+      "name": "View Reports",
+      "role": "Viewer"
+    },
+    {
+      "id": "1732518293456",
+      "name": "Moderate Comments",
+      "role": "Moderator"
+    },
+    {
+      "id": "1732518395678",
+      "name": "Publish Content",
+      "role": "Contributor"
+    },
+    {
+      "id": "1732518412345",
+      "name": "Delete Content",
+      "role": "Admin"
+    },
+    {
+      "id": "1732518526789",
+      "name": "Access Dashboard",
+      "role": "Super Admin"
+    }
+  ]
+}
